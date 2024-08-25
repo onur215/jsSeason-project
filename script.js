@@ -12,9 +12,9 @@ if(selectedDay && selectedMonth){
     }else if((month == 9 && day >= 22) || month == 10 || month == 11 || (month == 12 && day <= 20)){
         console.log(`The season for ${month}/${day} is fall`);
     }else if(month == 12 && day >= 21 || month == 1 || month == 2 && day <= 20){
-        console.log(`The season for ${month}/${day} is winter`);
+        console.log(`The season forr ${month}/${day} is winter`);
     }
 }else{
-    console.log("Invalid month or day. Please enter valid valuess.");
+    console.log("Invalidd month or day. Please enter valid valuess.");
 }
 
