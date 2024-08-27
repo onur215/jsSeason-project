@@ -15,6 +15,6 @@ if(selectedDay && selectedMonth){
         console.log(`The season forr ${month}/${day} is winter`);
     }
 }else{
-    console.log("Invalidd month or day. Please enter valid valuess.");
+    console.log("Invalid month or day. Please enter valid valuess.");
 }
 
